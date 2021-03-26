@@ -1,8 +1,12 @@
 package com.tcodes;
 
+import com.tcodes.week1.secondAssignment.CaesarCipher;
+
 public class Main {
 
     public static void main(String[] args) {
-	// write your code here
+        CaesarCipher caesarCipher = new CaesarCipher();
+        caesarCipher.testCaesar();
+        caesarCipher.testCaesar();
     }
 }
