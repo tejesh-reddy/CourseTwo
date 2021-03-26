@@ -6,7 +6,6 @@ public class Main {
 
     public static void main(String[] args) {
         CaesarCipher caesarCipher = new CaesarCipher();
-        caesarCipher.testCaesar();
-        caesarCipher.testCaesar();
+        caesarCipher.testTwoKeys();
     }
 }
