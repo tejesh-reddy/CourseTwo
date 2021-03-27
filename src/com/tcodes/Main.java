@@ -1,11 +1,12 @@
 package com.tcodes;
 
 import com.tcodes.week1.secondAssignment.CaesarCipher;
+import com.tcodes.week1.thirdAssignment.WordLengths;
 
 public class Main {
 
     public static void main(String[] args) {
-        CaesarCipher caesarCipher = new CaesarCipher();
-        caesarCipher.testTwoKeys();
+        WordLengths wordLengths = new WordLengths();
+        wordLengths.testWordLengths();
     }
 }
