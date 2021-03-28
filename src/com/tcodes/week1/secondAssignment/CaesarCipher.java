@@ -23,7 +23,7 @@ public class CaesarCipher {
         return interleave(firstEncrypt, secondEncrypt);
     }
 
-    private String interleave(String first, String second)
+    public static String interleave(String first, String second)
     {
         // Interleaves two strings by sequentially taking one char from each string
         StringBuilder stringBuilder = new StringBuilder();
