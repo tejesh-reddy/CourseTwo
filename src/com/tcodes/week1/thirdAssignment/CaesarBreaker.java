@@ -48,7 +48,9 @@ public class CaesarBreaker {
         }
 
         return key;
-    }public int[] countLetters(String sentence)
+    }
+
+    public int[] countLetters(String sentence)
     {
         String alphabet = "abcdefghijklmnopqrstuvwxyz";
         int[] counts = new int[26];

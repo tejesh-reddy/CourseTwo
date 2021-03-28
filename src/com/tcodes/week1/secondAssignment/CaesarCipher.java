@@ -20,7 +20,7 @@ public class CaesarCipher {
         String firstEncrypt = encrypt(firstEncryptInput.toString(), key1);
         String secondEncrypt = encrypt(secondEncryptInput.toString(), key2);
 
-        return interleave(firstEncrypt, secondEncrypt);
+        return CaesarCipher.interleave(firstEncrypt, secondEncrypt);
     }
 
     public static String interleave(String first, String second)
