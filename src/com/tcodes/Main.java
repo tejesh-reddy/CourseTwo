@@ -1,5 +1,6 @@
 package com.tcodes;
 
+import com.tcodes.miniProject.VigenereBreaker;
 import com.tcodes.week1.finalAssignment.OOCaesarCipher;
 import com.tcodes.week1.secondAssignment.CaesarCipher;
 import com.tcodes.week1.thirdAssignment.CaesarBreaker;
@@ -15,7 +16,7 @@ import com.tcodes.week3.webLog.Tester;
 public class Main {
 
     public static void main(String[] args) {
-        Tester tester = new Tester();
-        tester.testUniqueIP();
+        VigenereBreaker vigenereBreaker = new VigenereBreaker();
+        vigenereBreaker.breakVigenere();
     }
 }
