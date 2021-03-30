@@ -10,11 +10,12 @@ import com.tcodes.week2.finalAssignment.part2.WordsInFiles;
 import com.tcodes.week2.firstAssignment.WordFrequencies;
 import com.tcodes.week2.secondAssignment.CharactersInPlay;
 import com.tcodes.week2.thirdAssignment.GladLib;
+import com.tcodes.week3.webLog.Tester;
 
 public class Main {
 
     public static void main(String[] args) {
-        GladLibMap gladLibMap = new GladLibMap();
-        gladLibMap.makeStory();
+        Tester tester = new Tester();
+        tester.testUniqueIP();
     }
 }
